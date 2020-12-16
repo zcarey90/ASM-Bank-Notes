@@ -2,9 +2,15 @@
   "name": "ASM-Bank-Notes",
   "version": "1.0.0",
   "description": "scanned bank notes using tesseract OCR",
-  "main": "index.ejs",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "nodemon app.js"
+    "start":  "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,13 +22,5 @@
   "bugs": {
     "url": "https://github.com/zcarey90/ASM-Bank-Notes/issues"
   },
-  "homepage": "https://github.com/zcarey90/ASM-Bank-Notes#readme",
-  "dependencies": {
-    "ejs": "^3.1.5",
-    "multer": "^1.4.2",
-    "tesseract.js": "^2.0.0-beta.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
-  }
+  "homepage": "https://github.com/zcarey90/ASM-Bank-Notes#readme"
 }
